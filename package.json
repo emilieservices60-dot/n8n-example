@@ -4,7 +4,7 @@
   "description": "Example deployment for n8n on Clever Cloud",
   "main": "index.js",
   "scripts": {
-    "start": "npx n8n"
+    "start": "NODE_OPTIONS=--max-old-space-size=512 npx n8n"
   },
   "repository": {
     "type": "git",
